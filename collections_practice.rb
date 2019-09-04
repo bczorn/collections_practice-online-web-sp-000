@@ -41,7 +41,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  
+  array.each do |x|
+    x.start_with?("a")
 end
 
 def sum_array(array)
