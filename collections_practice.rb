@@ -60,7 +60,7 @@ end
 
 def add_s(array)
   array.each do |x|
-    unless x = array[1]
+    if x != array[1]
     x << "s"
     end
   end
