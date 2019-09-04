@@ -32,8 +32,8 @@ end
 
 def kesha_maker(array)
   array.each do |word|
-    x = word.split("")
-    
+    word.split("")
+    word.insert
   end    
 end
 
