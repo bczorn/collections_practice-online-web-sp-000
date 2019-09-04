@@ -31,7 +31,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |word|
+  array.map do |word|
     x = word.split("")
     y = x.insert(2, "$")
     l = y.join
