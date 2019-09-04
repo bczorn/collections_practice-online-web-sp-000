@@ -36,6 +36,7 @@ def kesha_maker(array)
     y = x.insert(2, "$")
     l = y.join
     h = l.delete_at(3)
+    l
   end    
 end
 
