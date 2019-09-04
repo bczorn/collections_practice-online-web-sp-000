@@ -34,8 +34,8 @@ def kesha_maker(array)
   array.each do |word|
     x = word.split("")
     y = x.insert(2, "$")
-    y.join
-    return y
+    l = y.join
+    return l
   end    
 end
 
